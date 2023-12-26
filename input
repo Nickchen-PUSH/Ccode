@@ -1,0 +1,22 @@
+21
+addAtIndex 0 1
+addAtIndex 0 2
+addAtIndex 3 2
+getValue 2
+getValue 1
+deleteAtIndex 0
+deleteAtIndex 1
+addAtIndex 1 3
+addAtIndex 2 4
+addAtIndex 2 5
+addAtIndex 1 8
+reverseIndex 0 3
+reverseIndex 1 3
+reverseIndex 0 5
+reverseList
+getValue 2
+getValue 5
+deleteAtIndex 1
+reverseIndex 2 3
+reverseIndex 1 1
+reverseList
