@@ -18,3 +18,5 @@ void reverseIndex(struct ListNode* head, int left, int right);
 void printList(struct ListNode* head);
 
 void freeList(struct ListNode* head);
+
+int ListIndex(struct ListNode* li,int Idx);

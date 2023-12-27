@@ -26,6 +26,16 @@ int main() {
 			} else {
 				printf("getValue: get %d\n", res);
 			}
+		} else if (strcmp(s, "ListIndex") == 0) {
+			int index;
+			scanf("%d", &index);
+			
+			int res = ListIndex(head->next, index);
+			if (res == 0) {
+				printf("ListIndex: fail\n");
+			} else {
+				printf("ListIndex: get %d\n", res);
+			}
 		} else if (strcmp(s, "addAtIndex") == 0) {
 			int index, val;
 			scanf("%d%d", &index, &val);

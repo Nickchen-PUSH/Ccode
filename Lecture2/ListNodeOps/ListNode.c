@@ -176,3 +176,11 @@ void freeList(struct ListNode* head){
         pre = head;
     }
 }
+int ListIndex(struct ListNode* li,int Idx) {
+    struct ListNode* n = li;
+    for(int i = 1;i <= Idx;i++)
+    {
+        n = n -> next;
+    }
+    return n->val;
+}

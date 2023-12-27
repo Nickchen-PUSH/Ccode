@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     a.out
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A08, symSize: 0x174 }
+  - { offsetInCU: 0x6E, offset: 0x6E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A08, symSize: 0x174 }
+  - { offsetInCU: 0x26, offset: 0x110, size: 0x8, addend: 0x0, symName: _merge, symObjAddr: 0x0, symBinAddr: 0x100003B7C, symSize: 0x26C }
+  - { offsetInCU: 0x60, offset: 0x14A, size: 0x8, addend: 0x0, symName: _merge, symObjAddr: 0x0, symBinAddr: 0x100003B7C, symSize: 0x26C }
+  - { offsetInCU: 0x114, offset: 0x1FE, size: 0x8, addend: 0x0, symName: _getMidNode, symObjAddr: 0x26C, symBinAddr: 0x100003DE8, symSize: 0x90 }
+  - { offsetInCU: 0x158, offset: 0x242, size: 0x8, addend: 0x0, symName: _mergeSort, symObjAddr: 0x2FC, symBinAddr: 0x100003E78, symSize: 0xE8 }
+...
